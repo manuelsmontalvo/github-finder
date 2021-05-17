@@ -57,7 +57,7 @@ const App = () => {
 
   // Make Alert
   const makeAlert = (msg, type) => {
-    setAlert({ msg: msg, type: type });
+    setAlert({ msg, type });
     setTimeout(() => setAlert(null), 4000);
   };
 
